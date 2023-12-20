@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Robuck";
+    src: url("fonts/robuck-regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Winter";
+    src: url("fonts/Winter_Pen.woff") format("woff");
+  }
+  @font-face {
+    font-family: "SfHeavy";
+    src: url("fonts/SF_Arborcrest_Heavy.woff") format("woff");
+  }
+  @font-face {
+    font-family: "SfLight";
+    src: url("fonts/SF_Arborcrest_Light.woff") format("woff");
+  }
+  @font-face {
+    font-family: "SfMedium";
+    src: url("fonts/SF_Arborcrest_Medium.woff") format("woff");
+  }
+}
