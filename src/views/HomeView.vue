@@ -13,7 +13,7 @@
 
 <style scoped>
 .back {
-  background-image: url("../assets/img/background.png");
+  background-image: url("@/assets/img/background.png");
   background-position: center;
   background-size: cover;
 }
