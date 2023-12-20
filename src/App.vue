@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 import NavBar from "@/components/NavBar.vue";
 import HomeView from "@/views/HomeView.vue";
 import Resume from "@/views/Resume.vue";
+import Portfolio from "@/views/Portfolio.vue";
 </script>
 
 <template>
@@ -11,4 +12,5 @@ import Resume from "@/views/Resume.vue";
   </header>
   <HomeView/>
   <Resume/>
+  <Portfolio/>
 </template>

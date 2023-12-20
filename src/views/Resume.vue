@@ -5,7 +5,9 @@
         Explore my professional journey and education. Click on my Resume for a
         detailed overview of my experience and studies.
       </p>
-      <a href="#"><span>Resume</span> </a>
+      <a href="#">
+        <span>Resume</span>
+      </a>
     </div>
 
     <div class="image-back flex-2 mb-4 aspect-w-1 aspect-h-1">
@@ -36,7 +38,8 @@
         class="object-cover max-w-auto h-full"
       />
     </div>
-    <div class="w-[600px] h-[300px] absolute top-[620px] left-[150px]">
+
+    <div class="absolute top-[620px] left-[150px] w-[600px] h-[300px]">
       <h1 class="Style text-red text-7xl font-normal font-winter">
         Your success <br class="mb-8" />
         my priority
