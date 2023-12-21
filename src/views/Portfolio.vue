@@ -35,7 +35,7 @@
       </div>
     </div>
   </div>
-  <div class="subtitle text-center text-white font-sfLight w-auto h-[10px] mb-28 mt-20 text-xl">
+  <div class="subtitle text-center text-white font-sfLight w-auto h-[10px] mb-28 mt-20 text-xl m-10">
     <p>
       Discover my portfolio of web projects, showcasing a variety of creative
       and technically engaging endeavors. From captivating user interfaces
@@ -72,6 +72,7 @@ a {
   padding: 10px;
   border: 2px solid white;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 .img-web {
