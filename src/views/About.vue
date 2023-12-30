@@ -30,11 +30,10 @@
         I'm Tony Romo, a detail-oriented Computer Engineering student currently
         in the eighth semester. I am passionate about learning new technologies
         and am on the lookout for opportunities as a front-end developer. My
-        current focus includes mastering Flutter and UI/UX design. I'm Tony
-        Romo, a detail-oriented Computer Engineering student currently in the
-        eighth semester. I am passionate about learning new technologies and am
-        on the lookout for opportunities as a front-end developer. My current
-        focus includes mastering Flutter and UI/UX design.
+        current focus includes mastering Flutter and UI/UX design. In addition,
+        I have hands-on experience with JavaScript frameworks such as Angular and
+        Vue.js, and I am eager to contribute to innovative projects that
+        challenge and enhance my skills.
       </p>
       <table class="w-full mb-8">
         <tbody>

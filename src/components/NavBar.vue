@@ -2,7 +2,7 @@
   <div class="font-sfMedium bg-red">
     <nav class="p-2">
       <div class="container ml-5">
-        <div class="grid grid-cols-5 items-center justify-center">
+        <div class="grid grid-cols-5 items-center justify-center w-auto">
           <!-- Center the items -->
           <!-- Logo -->
           <div class="text-white col-span-1 flex justify-center">
