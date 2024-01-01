@@ -11,7 +11,7 @@
       </div>
     </div>
     <img
-      src="@/assets/img/back-test.png"
+      src="@/assets/img/back-test.webp"
       alt=""
       class="flex-1 mt-12 max-w-[35%] h-[250px]"
     />
@@ -19,7 +19,7 @@
   <div class="grid grid-cols-2 items-center">
     <div class="w-auto h-[700px] m-28">
       <img
-        src="@/assets/img/grayRomo.png"
+        src="@/assets/img/grayRomo.webp"
         alt=""
         class="w-full h-full object-cover"
         style="object-position: 50% 20%"
@@ -90,7 +90,12 @@
 </template>
 
 <script lang="ts" setup>
-const menuItems = [
+interface MenuItem {
+  label: string;
+  link: string;
+}
+
+const menuItems: MenuItem[] = [
   { label: "ANGULAR", link: "#" },
   { label: "NODE JS", link: "#" },
   { label: "FIGMA", link: "#" },
