@@ -1,49 +1,60 @@
 <template>
-  <div class="font-sfMedium bg-black mb-8">
-    <nav class="p-2">
-      <div class="container mx-auto flex justify-between items-center">
-        <div
-          class="hidden md:flex"
-          v-for="(item, index) in menuItems"
-          :key="index"
-        >
-          <a
-            class="flex items-center justify-center text-white hover:text-gray-500 w-48 text-center font text-xl"
+  <div>
+    <div class="font-sfMedium bg-black mb-8">
+      <nav class="p-2 w-[auto] mx-[4rem]">
+        <div class="container mx-[5rem] flex justify-center items-center">
+          <div
+            v-for="(item, index) in menuItems"
+            :key="index"
+            class="hidden md:flex"
           >
-            {{ item.label }}
-          </a>
-          <img src="@/assets/img/Arrow.svg" alt="" class="ml-24" />
+            <a
+              class="flex items-center justify-center text-white hover:text-gray-500 w-40 text-center font text-xl"
+            >
+              <span class="text-sm">{{ item.label }}</span>
+            </a>
+            <!-- Check if it's not the last item to show the arrow -->
+            <img
+              v-if="index < menuItems.length - 1"
+              src="@/assets/img/Arrow.svg"
+              alt=""
+              class="mx-32"
+            />
+          </div>
         </div>
-      </div>
-    </nav>
-  </div>
-  <div class="container-port relative">
-    <img src="@/assets/img/portafolio.svg" alt="" class="mx-auto h-[425px]" />
-    <h1
-      class="font-winter text-red text-7xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-    >
-      Experience
-    </h1>
-  </div>
-  <div class="views-container flex justify-evenly mt-10 mb-10">
-    <div v-for="(project, index) in portafolio" :key="index" class="img-web">
-      <div class="img-container">
-        <img :src="project.url" :alt="project.name" />
-        <div class="project-overlay">
-          <div class="project-name font-sfMedium">{{ project.name }}</div>
+      </nav>
+    </div>
+
+    <div class="container-port relative">
+      <img src="@/assets/img/portafolio.svg" alt="" class="mx-auto h-[425px]" />
+      <h1
+        class="font-winter text-red text-7xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+      >
+        Experience
+      </h1>
+    </div>
+    <div class="views-container flex justify-evenly mt-10 mb-10">
+      <div v-for="(project, index) in portafolio" :key="index" class="img-web">
+        <div class="img-container">
+          <img :src="project.url" :alt="project.name" />
+          <div class="project-overlay">
+            <div class="project-name font-sfMedium">{{ project.name }}</div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="subtitle text-center text-white font-sfLight w-auto h-[10px] mb-28 mt-20 text-xl m-10">
-    <p>
-      Discover my portfolio of web projects, showcasing a variety of creative
-      and technically engaging endeavors. From captivating user interfaces
-      to imaginative designs, this collection highlights my skills and
-      commitment to crafting meaningful digital experiences. Explore a
-      showcase of school projects that reflect my dedication to learning and
-      applying design principles in practical, real-world contexts.
-    </p>
+    <div
+      class="subtitle text-center text-white font-sfLight w-auto h-[10px] mb-28 mt-20 text-xl m-10"
+    >
+      <p>
+        Discover my portfolio of web projects, showcasing a variety of creative
+        and technically engaging endeavors. From captivating user interfaces to
+        imaginative designs, this collection highlights my skills and commitment
+        to crafting meaningful digital experiences. Explore a showcase of school
+        projects that reflect my dedication to learning and applying design
+        principles in practical, real-world contexts.
+      </p>
+    </div>
   </div>
 </template>
 

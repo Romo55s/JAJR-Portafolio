@@ -39,7 +39,7 @@ import NavBar from "@/components/NavBar.vue";
   font-size: 80px;
 }
 .NavBar {
-  background-image: url("@/assets/img/background.webp");
+  background-image: url("@/assets/img/background-optimize.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
