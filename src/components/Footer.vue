@@ -7,11 +7,11 @@
             CONTACT ME <br />
             QUICK RESPONSE
           </p>
-          <div class="icons flex justify-center mt-2 w-36 gap-4">
-            <fa :icon="['fab', 'instagram']" class="fa-xl" />
-            <fa :icon="['fab', 'linkedin']" class="fa-xl" />
-            <fa :icon="['fab', 'discord']" class="fa-xl" />
-            <fa :icon="['fab', 'github']" class="fa-xl" />
+          <div class="icons flex justify-center mt-2 w-36 gap-4 ">
+            <fa :icon="['fab', 'instagram']" class="fa-xl button-pop" />
+            <fa :icon="['fab', 'linkedin']" class="fa-xl button-pop" />
+            <fa :icon="['fab', 'discord']" class="fa-xl button-pop" />
+            <fa :icon="['fab', 'github']" class="fa-xl button-pop" />
           </div>
         </div>
       </div>
@@ -65,6 +65,12 @@ const sendForm = () => {
 </script>
 
 <style scoped>
+.button-pop:hover {
+  color: red;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .input-container {
   position: relative;
 }
@@ -104,7 +110,7 @@ input {
   font-size: 1.2em;
   padding: 0 30px;
   line-height: 80px;
-  border-bottom: 4px solid #030303;
+  border-bottom: 4px solid #070707;
   transition: 0.1s ease;
   background: transparent;
 }
