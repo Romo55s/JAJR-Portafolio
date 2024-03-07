@@ -7,11 +7,24 @@
             CONTACT ME <br />
             QUICK RESPONSE
           </p>
-          <div class="icons flex justify-center mt-2 w-36 gap-4 ">
-            <fa :icon="['fab', 'instagram']" class="fa-xl button-pop" />
-            <fa :icon="['fab', 'linkedin']" class="fa-xl button-pop" />
-            <fa :icon="['fab', 'discord']" class="fa-xl button-pop" />
-            <fa :icon="['fab', 'github']" class="fa-xl button-pop" />
+          <div class="icons flex justify-center mt-2 w-36 gap-4">
+            <a
+              href="https://www.instagram.com/tony_jimenez_romo/"
+              class="container-ref"
+            >
+              <fa :icon="['fab', 'instagram']" class="fa-xl button-pop"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/tony55s"
+              class="container-ref"
+              ><fa :icon="['fab', 'linkedin']" class="fa-xl button-pop"
+            /></a>
+            <a href="" class="container-ref"
+              ><fa :icon="['fab', 'discord']" class="fa-xl button-pop"
+            /></a>
+            <a href="https://github.com/Romo55s" class="container-ref"
+              ><fa :icon="['fab', 'github']" class="fa-xl button-pop"
+            /></a>
           </div>
         </div>
       </div>
@@ -28,7 +41,7 @@
                 <button @click="sendForm">
                   <fa
                     :icon="['fas', 'paper-plane']"
-                    class=" cursor-pointer fa-f"
+                    class="cursor-pointer fa-f"
                   />
                 </button>
               </div>
@@ -75,6 +88,11 @@ const sendForm = () => {
   position: relative;
 }
 
+.container-ref a {
+  all: unset;
+  display: block;
+}
+
 button {
   position: absolute;
   top: 50%;
@@ -88,7 +106,7 @@ button {
 
 button .fa-f {
   color: rgb(162, 163, 163);
-  
+
   margin: 0px 10px;
 }
 
@@ -125,13 +143,6 @@ input:valid {
   border: 4px solid #ffffff;
 }
 
-a {
-  text-decoration: none;
-  padding: 10px;
-  border: 2px solid white;
-  border-radius: 2rem;
-  cursor: pointer;
-}
 .text {
   font-size: 29.5vw;
   margin: 0;

@@ -36,10 +36,12 @@
     <div class="views-container flex justify-evenly mt-10 mb-10">
       <div v-for="(project, index) in portafolio" :key="index" class="img-web">
         <div class="img-container">
-          <img :src="project.url" :alt="project.name" />
-          <div class="project-overlay">
-            <div class="project-name font-sfMedium">{{ project.name }}</div>
-          </div>
+          <a :href="project.link" target="_blank">
+            <img :src="project.url" :alt="project.name" class=""/>
+            <div class="project-overlay">
+              <div class="project-name font-sfMedium">{{ project.name }}</div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -71,9 +73,17 @@ const menuItems = [
 ];
 
 const portafolio = [
-  { url: page1, name: "Hotel Jaqueline" },
-  { url: page2, name: "Animales del Bosque" },
-  { url: page3, name: "FastOrder" },
+  {
+    url: page1,
+    name: "Hotel Jaqueline",
+    link: "https://hotel-jaqueline.onrender.com/home",
+  },
+  {
+    url: page2,
+    name: "Animales del Bosque",
+    link: "https://animal-forest.onrender.com",
+  },
+  { url: page3, name: "FastOrder", link: "https://fastorder.onrender.com/" },
 ];
 </script>
 
@@ -100,6 +110,17 @@ a {
 .img-container {
   position: relative;
   overflow: hidden;
+}
+
+.img-container a {
+  all: unset;
+  display: block;
+}
+
+.img-container img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
 }
 
 .project-overlay {
