@@ -12,7 +12,7 @@
 
     <div class="image-back flex-2 mb-4 aspect-w-1 aspect-h-1">
       <img
-        src="@/assets/img/back-ground-3.webp"
+        src="@/assets/back-ground-3.webp"
         alt="Background 1"
         class="object-cover w-80 h-full"
       />
@@ -33,7 +33,7 @@
 
     <div class="img-2 flex-2 mb-4 aspect-w-1 aspect-h-1 justify-end">
       <img
-        src="@/assets/img/back-ground-2.webp"
+        src="@/assets/back-ground-2.webp"
         alt="Background 1"
         class="object-cover max-w-auto h-full"
       />

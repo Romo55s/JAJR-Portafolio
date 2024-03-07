@@ -16,7 +16,7 @@
             <!-- Check if it's not the last item to show the arrow -->
             <img
               v-if="index < menuItems.length - 1"
-              src="@/assets/img/Arrow.svg"
+              src="@/assets/Arrow.svg"
               alt=""
               class="mx-32"
             />
@@ -26,7 +26,7 @@
     </div>
 
     <div class="container-port relative">
-      <img src="@/assets/img/portafolio.svg" alt="" class="mx-auto h-[425px]" />
+      <img src="@/assets/portafolio.svg" alt="" class="mx-auto h-[425px]" />
       <h1
         class="font-winter text-red text-7xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       >
@@ -59,9 +59,9 @@
 </template>
 
 <script lang="ts" setup>
-import page1 from "@/assets/img/page1.svg";
-import page2 from "@/assets/img/page2.svg";
-import page3 from "@/assets/img/page3.svg";
+import page1 from "@/assets/page1.svg";
+import page2 from "@/assets/page2.svg";
+import page3 from "@/assets/page3.svg";
 
 const menuItems = [
   { label: "RESUME", link: "#" },

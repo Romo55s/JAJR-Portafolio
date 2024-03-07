@@ -12,7 +12,7 @@
         </div>
       </div>
       <img
-        src="@/assets/img/back-test.webp"
+        src="@/assets/back-test.webp"
         alt=""
         class="flex-1 mt-12 max-w-[35%] h-[250px] mr-10"
       />
@@ -20,7 +20,7 @@
     <div class="grid grid-cols-2 items-center">
       <div class="w-auto h-[700px] m-28">
         <img
-          src="@/assets/img/grayRomo.webp"
+          src="@/assets/grayRomo.webp"
           alt=""
           class="w-full h-full object-cover"
           style="object-position: 50% 20%"
@@ -76,7 +76,7 @@
           </a>
         </div>
       </div>
-      <img src="@/assets/img/Interests.svg" alt="" class="ml-4 w-[1000px]" />
+      <img src="@/assets/Interests.svg" alt="" class="ml-4 w-[1000px]" />
     </div>
   </div>
 </template>

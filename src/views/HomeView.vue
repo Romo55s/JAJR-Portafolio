@@ -22,7 +22,7 @@ import NavBar from "@/components/NavBar.vue";
 
 <style scoped>
 .back {
-  background-image: url("@/assets/img/background.webp");
+  background-image: url("@/assets/background-test-optimize.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,10 +39,6 @@ import NavBar from "@/components/NavBar.vue";
   font-size: 80px;
 }
 .NavBar {
-  background-image: url("@/assets/img/background-optimize.webp");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   left: 0;

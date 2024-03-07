@@ -39,7 +39,7 @@
     </div>
 
     <div class="flex flex-col justify-center">
-      <img src="@/assets/img/Title.svg" alt="" class="mr-5 ml-5" />
+      <img src="@/assets/Title.svg" alt="" class="mr-5 ml-5" />
       <p
         class="text-white m-0 border-t border-white w-full text-center p-2"
         style="margin-top: -10px"

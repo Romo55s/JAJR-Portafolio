@@ -7,7 +7,7 @@
           <!-- Logo -->
           <div class="text-white col-span-1 flex justify-center">
             <!-- Center the logo -->
-            <img src="../assets/img/logo-wird-black.svg" alt="" class="w-15" style="height: 125px;" />
+            <img src="../assets/logo-wird-black.svg" alt="" class="w-15" style="height: 125px;" />
           </div>
           <!-- Menú de opciones -->
           <div class="hidden md:flex col-span-4">
