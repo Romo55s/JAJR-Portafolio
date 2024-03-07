@@ -9,7 +9,7 @@ import { toast } from 'vue3-toastify';
 import 'vue3-toastify/dist/index.css';
 
 onMounted(() => {
-  toast.warn("Warning Notification !", {
+  toast.warn("Work in Progress!", {
     position: toast.POSITION.TOP_RIGHT,
     theme: 'dark',
   });
