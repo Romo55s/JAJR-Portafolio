@@ -10,7 +10,7 @@ import 'vue3-toastify/dist/index.css';
 
 onMounted(() => {
   toast.warn("Warning Notification !", {
-    position: toast.POSITION.BOTTOM_LEFT,
+    position: toast.POSITION.TOP_RIGHT,
     theme: 'dark',
   });
 });
