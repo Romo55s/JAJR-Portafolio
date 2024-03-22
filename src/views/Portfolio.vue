@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="font-sfMedium bg-black mb-8">
+    <div class="font-sfMedium bg-black mb-8"id="portafolio" >
       <nav class="p-2 w-[auto] mx-[4rem]">
         <div class="container mx-[5rem] flex justify-center items-center">
           <div
@@ -9,6 +9,8 @@
             class="hidden md:flex"
           >
             <a
+              v-smooth-scroll="{ duration: 500 }"
+              :href="'#' + item.link"
               class="flex items-center justify-center text-white hover:text-gray-500 w-40 text-center font text-xl"
             >
               <span class="text-sm">{{ item.label }}</span>
@@ -66,10 +68,10 @@ import page2 from "@/assets/page2.svg";
 import page3 from "@/assets/page3.svg";
 
 const menuItems = [
-  { label: "RESUME", link: "#" },
-  { label: "ABOUT", link: "#" },
-  { label: "RETURN", link: "#" },
-  { label: "CONTACT", link: "#" },
+  { label: "RESUME", link: "resume" },
+  { label: "ABOUT", link: "about" },
+  { label: "RETURN", link: "home" },
+  { label: "CONTACT", link: "contact" },
 ];
 
 const portafolio = [

@@ -3,7 +3,7 @@ import NavBar from "@/components/NavBar.vue";
 </script>
 
 <template>
-  <div class="back relative h-[1280px]">
+  <div class="back relative h-[1280px]" id="home">
     <NavBar />
     <div class="flex flex-col items-center justify-center h-full">
       <div

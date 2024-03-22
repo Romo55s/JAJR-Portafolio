@@ -1,5 +1,5 @@
 <template>
-  <div class="flex text-white p-10 relative mt-10">
+  <div class="flex text-white p-10 relative mt-10" id="resume">
     <div class="flex-1 mr-10 font-sfLight ml-5">
       <p class="text-white mb-4 text-2xl">
         Explore my professional journey and education. Click on my Resume for a

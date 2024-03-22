@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex h-[250px] mx-10">
+    <div class="flex h-[250px] mx-10" id="about">
       <div class="container-port relative flex-1">
         <h1
           class="font-winter text-red text-7xl absolute top-44 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"

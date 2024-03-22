@@ -7,7 +7,12 @@
           <!-- Logo -->
           <div class="text-white col-span-1 flex justify-center">
             <!-- Center the logo -->
-            <img src="../assets/logo-wird-black.svg" alt="" class="w-15" style="height: 125px;" />
+            <img
+              src="../assets/logo-wird-black.svg"
+              alt=""
+              class="w-15"
+              style="height: 125px"
+            />
           </div>
           <!-- Menú de opciones -->
           <div class="hidden md:flex col-span-4">
@@ -17,15 +22,19 @@
               :class="[
                 'text-white',
                 'mx-4',
-                'hover:text-gray-500',
                 'ml-60',
                 'w-48',
                 'justify-center',
                 'text-center',
                 'font',
-                'text-xl'
+                'text-xl',
+                'transition-transform',
+                'duration-500',
+                'transform',
+                'hover:scale-110',
               ]"
-              :href="item.link"
+              v-smooth-scroll="{ duration: 500 }"
+              :href="'#' + item.link"
             >
               {{ item.label }}
             </a>
@@ -43,9 +52,9 @@
 
 <script lang="ts" setup>
 const menuItems = [
-  { label: "Resume", link: "#" },
-  { label: "About", link: "#" },
-  { label: "Portfolio", link: "#" },
-  { label: "Contact", link: "#" },
+  { label: "Resume", link: "resume" },
+  { label: "About", link: "about" },
+  { label: "Portfolio", link: "portafolio" },
+  { label: "Contact", link: "contact" },
 ];
 </script>

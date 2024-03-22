@@ -1,5 +1,5 @@
 <template>
-  <div class="footer mt-10 font-sfMedium back-test">
+  <div class="footer mt-10 font-sfMedium back-test" id="contact">
     <div class="content grid grid-cols-2 gap-80 ml-20 w-auto pt-14 mb-24">
       <div class="col-span-1 md:col-span-1 md:col-start-1 contact text-white">
         <div class="flex flex-col justify-center">
